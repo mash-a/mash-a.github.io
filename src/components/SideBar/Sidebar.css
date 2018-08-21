@@ -1,0 +1,16 @@
+ul {
+  list-style: none;
+}
+
+.fab {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: grey;
+}
+
+.fab:hover {
+  opacity: 0.7;
+}
