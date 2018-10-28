@@ -45,13 +45,10 @@ social:
     url: https://www.linkedin.com/in/mariya-mego-vela/
   - title: github
     url: http://github.com/mash-a
-  - title: github
-    url: http://github.com/mash-a
 
-  # Postal address (add as many lines as necessary)
-  # address:
-  # - line: 3481 Melrose Place
-  - line: Berkeley, CA 94703
+# Postal address (add as many lines as necessary)
+address:
+  - line: Berkeley, CA
 
 # Credits content
 credits: 'Freelancer is a theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
