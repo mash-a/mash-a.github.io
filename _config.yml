@@ -40,18 +40,18 @@ footer:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/_mash_a
+    url: https://twitter.com/_mash_a
   - title: linkedin
     url: https://www.linkedin.com/in/mariya-mego-vela/
   - title: github
-    url: http://github.com/mash-a
+    url: https://github.com/mash-a
 
 # Postal address (add as many lines as necessary)
 address:
   - line: Berkeley, CA
 
 # Credits content
-credits: 'Freelancer is a theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'Freelancer is a theme created by <a href="https://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown
