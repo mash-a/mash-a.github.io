@@ -19,6 +19,12 @@ if (typeof jQuery === "undefined") {
 +(function($) {
   "use strict";
 
+<<<<<<< HEAD
+=======
++function ($) {
+  'use strict';
+
+>>>>>>> b7197b52e20a9a4056114fb68f4cf40acfd8bbb4
   // CSS TRANSITION SUPPORT (Shoutout: https://www.modernizr.com/)
   // ============================================================
 
@@ -42,6 +48,7 @@ if (typeof jQuery === "undefined") {
   }
 
   // https://blog.alexmaccaw.com/css-transitions
+<<<<<<< HEAD
   $.fn.emulateTransitionEnd = function(duration) {
     var called = false;
     var $el = this;
@@ -54,6 +61,16 @@ if (typeof jQuery === "undefined") {
     setTimeout(callback, duration);
     return this;
   };
+=======
+  $.fn.emulateTransitionEnd = function (duration) {
+    var called = false
+    var $el = this
+    $(this).one('bsTransitionEnd', function () { called = true })
+    var callback = function () { if (!called) $($el).trigger($.support.transition.end) }
+    setTimeout(callback, duration)
+    return this
+  }
+>>>>>>> b7197b52e20a9a4056114fb68f4cf40acfd8bbb4
 
   $(function() {
     $.support.transition = transitionEnd();
