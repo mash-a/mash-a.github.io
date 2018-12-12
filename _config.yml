@@ -1,9 +1,9 @@
 # Site settings
 title: Mariya Mego Vela
 email: mariya.emv@gmail.com
-url: https://example.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
+url: https://mash-a.com
+description: "Mariya Mego Vela developer portfolio."
+keywords: "front end developer, developer, javascript, react, express, node.js, software engineer, mariya mego vela"
 skills: "Front End Developer"
 meta_author: Mego Vela Mariya
 
@@ -32,7 +32,7 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
+  copyright: Mariya Mego Vela
   location: Location
   social: Around the Web
   credits: Credits
@@ -48,7 +48,7 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Berkeley, CA
+  - line: Santa Barbara, CA
 
 # Credits content
 credits: 'Freelancer is a theme created by <a href="https://startbootstrap.com">Start Bootstrap</a>.'

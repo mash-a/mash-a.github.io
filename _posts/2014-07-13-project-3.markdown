@@ -1,0 +1,10 @@
+---
+layout: default
+modal-id: 3
+date: 2018-12-11
+img: simon.png
+alt: image-alt
+project-date: March 2018
+category: Web Development
+description: Popular 1970's Simon Game recreated using JavaScript, CSS, and HTML.
+---
