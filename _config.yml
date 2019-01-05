@@ -5,7 +5,7 @@ github: https://github.com/mash-a
 about: I am freelance developer. Currently focused on JavaScript and React.
 disqus_shortname: stackproblems
 google_analytics: UA-XXXXXXXX-Y
-avatar_url: /static/img/avatar.jpg
+avatar_url: /static/img/profile.png
 
 enableTags: true
 tagarray: []
@@ -16,28 +16,22 @@ collections:
     permalink: /project/:path/
 
 social:
-    - icon: fa-facebook
-      link: "#"
-    - icon: fa-twitter
-      link: "https://twitter.com/agusmakmun6"
-    - icon: fa-linkedin
-      link: "https://www.linkedin.com/in/summonagus"
-    - icon: fa-stack-exchange
-      link: "#"
-    - icon: fa-github
-      link: "https://github.com/agusmakmun"
+  - icon: fa-twitter
+    link: "https://twitter.com/_mash_a"
+  - icon: fa-linkedin
+    link: "https://www.linkedin.com/in/mariya-mego-vela/"
+  - icon: fa-github
+    link: "https://github.com/mash-a"
 
 share:
-  twitter_username: agusmakmun6
+  twitter_username: _mash_a
   fb_appid: 1749788565247320
 
 urls:
-    - text: About Me
-      url: /about/
-    - text: My Projects
-      url: /projects/
-    - text: XML Feed
-      url: /feed.xml
+  - text: About Me
+    url: /about/
+  - text: My Projects
+    url: /projects/
 
 url: "https://mash-a.com"
 baseurl: ""
@@ -45,7 +39,7 @@ paginate: 20
 per_page: 20
 paginate_path: "/page/:num/"
 markdown: kramdown
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-gist
 
@@ -54,4 +48,4 @@ compress_html:
   comments: ["<!-- ", " -->"]
   endings: all
   ignore:
-    envs: ['development']
+    envs: ["development"]
