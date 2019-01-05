@@ -1,5 +1,5 @@
 title: Mariya Mego Vela
-description: Mariya's personal site
+description: About Mariya
 author: Mariya Mego Vela
 github: https://github.com/mash-a
 about: I am a software developer. Currently I'm focused on JavaScript and React.
@@ -16,14 +16,14 @@ collections:
 
 social:
   - icon: fa-twitter
-    link: "https://twitter.com/_mash_a"
+    link: "https://twitter.com/masha_codes"
   - icon: fa-linkedin
     link: "https://www.linkedin.com/in/mariya-mego-vela/"
   - icon: fa-github
     link: "https://github.com/mash-a"
 
 share:
-  twitter_username: _mash_a
+  twitter_username: masha_codes
   fb_appid: 1749788565247320
 
 urls:
