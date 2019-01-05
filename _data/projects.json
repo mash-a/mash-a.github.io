@@ -8,6 +8,7 @@
     "tags": ["JavaScript", "React", "PostgreSQL", "express", "nodejs", "Auth0"]
   },
   {
+    "slug": "meme-app",
     "name": "Meme Sharing App",
     "image": "meme.png",
     "url": "https://cryptic-plateau-70930.herokuapp.com/",
@@ -15,6 +16,7 @@
     "tags": ["JavaScript", "React"]
   },
   {
+    "slug": "simon",
     "name": "Simon Game",
     "image": "simon.png",
     "url": "https://mash-a.com/Simon_Game/",
