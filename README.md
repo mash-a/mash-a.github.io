@@ -4,26 +4,27 @@
 > and the search posts using [Super Search](https://github.com/chinchang/super-search)
 
 ### Demo
-* [https://agusmakmun.github.io](https://agusmakmun.github.io)
+
+- [https://agusmakmun.github.io](https://agusmakmun.github.io)
 
 #### Features
 
-* Sitemap and XML Feed
-* Pagination in homepage
-* Posts under category
-* Realtime Search Posts _(title & description)_ by query.
-* Related Posts
-* Highlight pre
-* Next & Previous Post
-* Disqus comment
-* Projects page & Detail Project page
-* Share on social media
-* Google analytics
-* HTML Minify _(Compress HTML)_ using [Jekyll Compress HTML](https://github.com/penibelst/jekyll-compress-html)
+- Sitemap and XML Feed
+- Pagination in homepage
+- Posts under category
+- Realtime Search Posts _(title & description)_ by query.
+- Related Posts
+- Highlight pre
+- Next & Previous Post
+- Disqus comment
+- Projects page & Detail Project page
+- Share on social media
+- Google analytics
+- HTML Minify _(Compress HTML)_ using [Jekyll Compress HTML](https://github.com/penibelst/jekyll-compress-html)
 
 #### Screenshot
 
-![Screenshot Post Page](https://raw.githubusercontent.com/agusmakmun/agusmakmun.github.io/master/static/img/screenshot-post-page.png  "Screenshot Post Page")
+![Screenshot Post Page](https://raw.githubusercontent.com/agusmakmun/agusmakmun.github.io/master/static/img/screenshot-post-page.png "Screenshot Post Page")
 
 ### Install & Configuration
 
@@ -40,9 +41,9 @@ All categories saved inside path of `category/`, you can see the existed categor
 
 **b. Add new Posts**
 
-* All posts bassed on markdown syntax _(please googling)_. allowed extensions is `*.markdown` or `*.md`.
-* This files can found at the path of `_posts/`.
-* and the name of files are following `<date:%Y-%m-%d>-<slug>.<extension>`, for example:
+- All posts bassed on markdown syntax _(please googling)_. allowed extensions is `*.markdown` or `*.md`.
+- This files can found at the path of `_posts/`.
+- and the name of files are following `<date:%Y-%m-%d>-<slug>.<extension>`, for example:
 
 ```
 2013-09-23-welcome-to-jekyll.md
@@ -70,3 +71,5 @@ image: Broadcast_Mail.png             # (custom) image only for meta `property="
 ### Contributing
 
 Feel free to [open a bug](https://github.com/agusmakmun/agusmakmun.github.io/issues) or [contribute to code](https://github.com/agusmakmun/agusmakmun.github.io/pulls)!
+
+bundle exec jekyll serve
